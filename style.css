@@ -1,20 +1,33 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: sans-serif;
+    font-family: Ubuntu, sans-serif;
 }
 
 body {
     text-align: center;
 }
 
+img {
+    width: 300px;
+}
+
 h1 {
     margin: 10px;
+    margin-top: 0;
 }
 
 h2 {
     margin: 10px;
     font-size: 2rem;
+}
+
+.red-txt {
+    color: #CA2D3A;
+}
+
+.green-txt {
+    color: #31964F;
 }
 
 .links {
@@ -32,12 +45,49 @@ h2 {
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    border: 1px solid #555;
     border-radius: 6px;
 }
 
-.btn:hover {
-    background-color: #555;
+.blue {
+    border: 1px solid #3A88CB;
+    color: #3A88CB;
+}
+
+.blue:hover {
+    background-color: #3A88CB;
     color: #fff;
-    transition-duration: 0.2s;
+    transition-duration: 0.3s;
+}
+
+.red {
+    border: 1px solid #CA2D3A;
+    color: #CA2D3A;
+}
+
+.red:hover {
+    background-color: #CA2D3A;
+    color: #fff;
+    transition-duration: 0.3s;
+}
+
+.green {
+    border: 1px solid #31964F;
+    color: #31964F;
+}
+
+.green:hover {
+    background-color: #31964F;
+    color: #fff;
+    transition-duration: 0.3s;
+}
+
+.yellow {
+    border: 1px solid #E4A12E;
+    color: #E4A12E;
+}
+
+.yellow:hover {
+    background-color: #E4A12E;
+    color: #fff;
+    transition-duration: 0.3s;
 }
